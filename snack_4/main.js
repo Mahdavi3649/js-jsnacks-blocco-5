@@ -7,7 +7,7 @@ const secondArray = [1, 2, 3, 4, 5];
 let merge = [];
 
 for (let i = 0; i < firstArray.length; i++) {
-    mergeArrays.push(firstArray[i]);
-    mergeArrays.push(secondArray[i]);
+    merge.push(firstArray[i]);
+    merge.push(secondArray[i]);
 }
 console.log(merge);
